@@ -26,7 +26,7 @@ import kotlin.math.sqrt
  * Description:
  */
 class CropImageView @JvmOverloads constructor(
-    context: Context?,
+    context: Context,
     attrs: AttributeSet? = null,
     defStyle: Int = 0
 ) : AppCompatImageView(context, attrs, defStyle) {
